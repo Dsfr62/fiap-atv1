@@ -1,0 +1,60 @@
+/* 
+colors
+- main blue: #1b8e99
+- selected main blue: #92c9ce
+- main red: #660000
+- main gray: #444444
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first-nav {
+    background-color: #1b8e99;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.first-nav .options {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    color: white;
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+.first-nav img {
+    margin: 0 18px;
+    position: absolute;
+}
+
+.first-nav .options p {
+    padding: 8px;
+    margin: 0 5px;
+}
+
+.banner-section {
+    background-color: #660000;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.banner-section .options {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    color: white;
+    margin: 0 44px;
+}
