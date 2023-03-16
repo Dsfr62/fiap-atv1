@@ -58,3 +58,108 @@ body {
     color: white;
     margin: 0 44px;
 }
+
+.virtual-store-section {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 1rem;
+}
+
+.virtual-store-section .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.virtual-store-section .header .title {
+    color: #660000;
+    border-bottom: 3px solid #660000;
+    padding-bottom: 7px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.virtual-store-section .drones-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+    margin: 12px 0px 12px 0px;
+}
+
+.virtual-store-section .drones-container .drone {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #1b8e99;
+    width: 33%;
+}
+
+.virtual-store-section .drones-container .drone .title {
+    color:#1b8e99;
+    font-weight: 600;
+    background-color: #deeff1;
+    margin: 6px 6px 0px 6px;
+    padding: 8px;
+    text-align: center;
+    font-size: large;
+}
+
+.virtual-store-section .drones-container .drone .description {
+    margin: 2px 18px 0px 18px;
+    color: #1b8e99;
+    font-size: small;
+}
+
+.virtual-store-section .drones-container .drone .buy-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1b8e99;
+    color: white;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.virtual-store-section .drones-container .drone .buy-container div {
+    width: 100%;
+}
+
+.virtual-store-section .drones-container .drone .buy-container div .total {
+    font-size: 20rem;
+    font-weight: 600;
+}
+
+.virtual-store-section .drones-container .drone-middle {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #660000;
+    width: 33%;
+}
+
+.virtual-store-section .drones-container .drone-middle .title {
+    color:#660000;
+    font-weight: 600;
+    background-color: #E7DBDE;
+    margin: 6px 6px 0px 6px;
+    padding: 8px;
+    text-align: center;
+    font-size: large;
+}
+
+.virtual-store-section .drones-container .drone-middle .description {
+    margin: 2px 18px 0px 18px;
+    color: #660000;
+    font-size: small;
+}
+
+.virtual-store-section .drones-container .drone-middle .buy-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #660000;
+    color: white;
+    padding: 8px 24px 3px 24px;
+}
+
+.virtual-store-section .drones-container .drone .buy-container div .total {
+    font-size: x-large;
+    font-weight: 600;
+}
