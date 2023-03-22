@@ -33,6 +33,7 @@ body {
 .first-nav .options {
     display: flex;
     justify-content: end;
+    align-items: center;
     width: 100%;
     color: white;
     padding: 12px;
@@ -46,8 +47,10 @@ body {
 }
 
 .first-nav .options p {
-    padding: 8px;
     margin: 0 5px;
+    word-wrap: break-word;
+    width: 10%;
+    text-align: center;
 }
 
 .banner-section {
@@ -64,6 +67,11 @@ body {
     width: 40%;
     color: white;
     margin: 0 44px;
+}
+
+.banner-section .options .selected {
+    background-color: white;
+    color: #660000;
 }
 
 .virtual-store-section {
@@ -172,8 +180,8 @@ body {
     width: 33%;
     display: flex;
     flex-direction: column;
-    border: 1px solid #1b8e99;
-    border-bottom: 8px solid #1b8e99;
+    border: 1px solid #660000;
+    border-bottom: 8px solid #660000;
 }
 
 .services-section .services-container .service div {
@@ -186,12 +194,12 @@ body {
 .services-section .services-container .service div .title {
     font-size: 22px;
     font-weight: 600;
-    color: #1b8e99;
+    color: #660000;
 }
 
 .services-section .services-container .service div .description {
     font-size: 13px;
-    color: #1b8e99;
+    color: #660000;
 }
 
 footer {
